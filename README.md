@@ -55,7 +55,7 @@ geo2topo transit=TransitStops.geojson > TransitStops.topojson
 #Exporting demo data set from SQL Server
 1. Open SQL server management studio
 2. Open one of the example SQL query scripts such as BarChartAndMapExample.sql
-3. Set the user - [ATLANTAREGION\TAMConsult] - and schema (i.e. scenario) - BS10 - to query
+3. Set the user - [ATLANTAREGION\<UserName>] - and schema (i.e. scenario) - BS10 - to query
 4. Execute the script
 5. Right click in the upper left corner of the results table and select Copy with Headers
 6. Paste the result in Excel and save as a CSV file into the relevant data\scenario folder
